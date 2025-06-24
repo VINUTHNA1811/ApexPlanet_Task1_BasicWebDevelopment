@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f0f3f3, #f0f3f3); 
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #0ca4e4, #0e088b); 
+  color: white;
+  text-align: center;
+  padding: 2em 1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.card {
+  background: white;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+textarea {
+  height: 50px;
+}
+
+button {
+  background: linear-gradient(to right, #4480cf, #363ed4);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(78, 84, 200, 0.2);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #6210b4, #2f33a6);
+}
+
+.entry {
+  background: #f9f9ff;
+  padding: 1em;
+  border-left: 5px solid #4e54c8;
+  margin-bottom: 1em;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.branding .logo {
+  width: 60px;
+  height: 60px;
+}

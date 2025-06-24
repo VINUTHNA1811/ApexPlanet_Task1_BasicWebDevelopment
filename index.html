@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dear Future Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="branding">
+    <h1>Dear Future Me</h1>
+    <img src="logo.png" alt="Dear Future Me Logo" class="logo" />
+  </div>
+  <p>~Track your internships and growth journey!!</p>
+</header>
+<a href="#" onclick="alert('More information coming soon!')">Learn more about this project</a>
+
+  <main class="container">
+    <section class="card">
+      <h2>Add Internship</h2>
+      <input type="text" id="company" placeholder="Company Name" />
+      <input type="text" id="role" placeholder="Role / Position" />
+      <select id="status">
+        <option value="Applied">Applied</option>
+        <option value="Ongoing">Ongoing</option>
+        <option value="Completed">Completed</option>
+      </select>
+      <textarea id="learnings" placeholder="What did you learn? (optional)"></textarea>
+      <button onclick="addInternship()">Save Internship</button>
+    </section>
+
+    <section class="card">
+      <h2>Internship Log</h2>
+      <div id="log"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
